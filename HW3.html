@@ -1,13 +1,38 @@
-function randomPassword(length) {
-    var chars = "abcdefghijklmnopqrstuvwxyz!@#$%^&*()-+<>ABCDEFGHIJKLMNOP1234567890";
-    var pass = "";
-    for (var x = 0; x < length; x++) {
-        var i = Math.floor(Math.random() * chars.length);
-        pass += chars.charAt(i);
-    }
-    return pass;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="C:\Users\User\Desktop\workspace\HW3-Password-Generator\HW3.jsx"></script>
+    <link rel="stylesheet" href="C:\Users\User\Desktop\workspace\HW3-Password-Generator\style.css">
+</head>
+<body>
+    <form name="myform" method="post" action="">
+        <input type="hidden" name="length" value="10">
+        <table width="100%" border="0"></table>
 
-function generate() {
-    myform.row_password.value = randomPassword(myform.length.value);
-}s
+    <div class="all"> 
+        <center>
+            <div class="container">
+                <center>
+              <div class="box1">Password Generator</div>
+              <br>
+              <br>
+              <br>
+                <div class="password">Generate a Password</div>
+                <td>
+                    <input name="row_password" type="text" size="100">&nbsp;
+                    <br>
+                    <input type="button" class="button" value="Generate Password" onClick="generate();" tabindex="2">
+                    <input type="button" class="copy" value="Copy to Clipboard" onClick="copy();" tabindex="2">
+                </center>          
+                
+        </center
+                
+    </div>
+    </table>
+    </form>
+</body>
+</html>

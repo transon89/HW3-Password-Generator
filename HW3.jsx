@@ -10,4 +10,8 @@ function randomPassword(length) {
 
 function generate() {
     myform.row_password.value = randomPassword(myform.length.value);
-}s
+}
+
+function copyToClipboard(text) {
+    window.prompt("Copy to clipboard: Ctrl+C, Enter", text);
+}
