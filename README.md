@@ -130,3 +130,81 @@ The URL of the GitHub repository
     </form>
 </body>
 </html>
+
+## CSS
+.all {
+    background-color: lightblue;
+    width: fit-content
+    padding: 25px;
+   
+
+}
+
+
+
+
+.box1 {
+    font: bold;
+    font-size: 32px;
+    background-color: lightgray;
+    width: fit-content;
+     margin: 0;
+    height: fit-content;
+    padding: 5px;
+    ;
+}
+
+input {
+  widows: 100px; height: 100px; border: 1px solid #999999; padding: 5px; 
+}
+
+.password {
+    font: bold;
+    font-size: 32px;
+}
+
+.button {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: red;
+    width: fit-content;
+    
+    
+    
+}
+
+.button2 {
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+       
+}
+
+.copy {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: lightgray
+    width: fit-content;  
+}
+
+
+## JAVASCRIPT 
+function randomPassword(length) {
+    var chars = "abcdefghijklmnopqrstuvwxyz!@#$%^&*()-+<>ABCDEFGHIJKLMNOP1234567890";
+    var pass = "";
+    for (var x = 0; x < length; x++) {
+        var i = Math.floor(Math.random() * chars.length);
+        pass += chars.charAt(i);
+    }
+    return pass;
+}
+
+function generate() {
+    myform.row_password.value = randomPassword(myform.length.value);
+}
+
+function copyToClipboard(text) {
+    window.prompt("Copy to clipboard: Ctrl+C, Enter", text);
+}s
