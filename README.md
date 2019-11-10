@@ -24,7 +24,7 @@ Your application's GitHub repository should contain a README.md file explaining 
 https://vanderbilt.bootcampcontent.com/vanderbilt_coding_bootcamp/VU-NSH-FSF-PT-10-2019-U-C/raw/master/03-JavaScript/02-Homework/Assets/03-JavaScript-homework-demo.png
 
 ## Visuals:
-![Screenshot of the application](C:\Users\User\Desktop\passwordgenerator.png)
+![alt text](C:\Users\User\Desktop\passwordgenerator.png)
 
 
 ## Installation: 
